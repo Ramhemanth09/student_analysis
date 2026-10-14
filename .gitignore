@@ -1,0 +1,10 @@
+node_modules/
+dist/
+initial_data.json
+project_pack/
+*.log
+.env
+.env.local
+.env.production
+.DS_Store
+Thumbs.db

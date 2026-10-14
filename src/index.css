@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-slate-50 text-slate-800 antialiased;
+  }
+}
+
+/* Print optimizations for progress reports */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, aside, .no-print, button, select {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}
